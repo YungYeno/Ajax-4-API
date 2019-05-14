@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Yeno Reus MD1B">
+    <title>Weer API</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <center>
+    <div class="wrapper">
+      <h1>Weer API</h1>
+      <a href="http://www.weerlive.nl/delen.php">Bron:</a>
+
+      <br />
+      <br />
+
+      <input type="button" value="Laat een selectie zien" id="weatherButton" />
+      <input type="button" value="Laat alle data zien" id="weatherButton2" />
+      <input type="button" value="ticker tape" id="weatherTickerTape" />
+
+        <br>
+        <br>
+       <div id="weatherHere">
+       </div>
+       <br>
+       <div class="ticker-wrap">
+         </div>
+
+    </div>
+    <marquee behavior="scroll" direction="left" >
+     <span id="tickerTape"></span>
+  </marquee>
+
+</center>
+ <script src="ajax_callback.js"></script>
+ <script src="weer_api.js"></script>
+  </body>
+</html>

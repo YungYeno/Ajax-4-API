@@ -1,0 +1,50 @@
+body {
+  background-color: #03e3f5;
+  font-family: rockwell;
+  font-size: 18px;
+}
+h1 {
+  color: yellow;
+}
+#weatherButton {
+border-radius: 2px;
+border: solid;
+border-color: yellow;
+color: white;
+background-image: linear-gradient(#f59203, #f52803);
+height: 50px;
+width: 150px;
+cursor: cell;
+}
+
+#weatherButton2 {
+  border-radius: 2px;
+  border: solid;
+  border-color: yellow;
+  color: white;
+  background-image: linear-gradient(#f59203, #f52803);
+  height: 50px;
+  width: 150px;
+  cursor: cell;
+}
+
+#weatherTickerTape {
+  border-radius: 2px;
+  border: solid;
+  border-color: yellow;
+  color: white;
+  background-image: linear-gradient(#f59203, #f52803);
+  height: 50px;
+  width: 150px;
+  cursor: cell;
+}
+
+#tickerTape {
+  color: white;
+  width: 100%;
+  height: 100px;
+}
+
+#weatherHere {
+  color: white;
+}
